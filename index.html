@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script> //task-1
+ var membership;
+ var Basicmembership;
+ if(membership==Basicmembership){
+    console.log("Access to only free books");
+   }
+else if(membership==Standardmembership){
+    console.log("Access to only free books");
+}
+else if(membership==Premimum){
+    console.log("Access all and including exclusive content");
+}
+else {
+    console.log("membership type is invalid");
+}
+ </script>
+<script>  //task-2
+    var customer="VIP customers";
+    var amount=200;
+    if(customer== "Regular customers"){
+        if(amount==100){
+            amount=amount-amount*0
+              }
+    else if(amount>=100 && amount<=500){
+    amount -=amount*0.05
+    }
+    else if(amount>500){
+     amount -=amount*0.10
+    }
+}
+    console.log(amount);
+</script>
+<script>  //task-3
+  var GPA=4.0;
+  var activities=10;
+  var hours=200;
+    if(GPA >= 3.5){
+        console.log("merit based scholarship");
+    }
+    else if(GPA >=3.0 && activities >=2){
+        console.log("leadership scholarship");
+    }
+    else if(GPA >=2.5 && hours >=100){
+        console.log("community service scholarship");
+    }
+    else{
+        console.log("no scholarship");
+    }
+</script>   
+<script>  //task-4
+    var week="monday";
+    var age=21;
+      if(week == "monday"|| week=="tuesday" || week=="wednesday"|| week=="thursday"){
+        var price=12;
+        if(age >= 65 || age <= 12){
+            price=price*0.5;
+        }
+          console.log(price);
+      }
+       if(week == "saturday" ||"sunday"){
+        var price=15;
+        if(age >= 65 || age <= 12){
+            price -=price*0.3;
+        }
+          console.log(price);
+      }
+  </script> 
+  <script>  //task-5
+   var age=18; 
+ var participent=120;
+if(age >=18 && participent <=100){
+    console.log("you can register");
+}
+else if(age<18){
+    console.log("you valid age");
+}
+else if(participent>100){
+    console.log("no more registrations are accepted");
+}
+  </script>
+  <script>   //task-6
+  var input;
+  var tea="masala" , add="extra sugar";
+  var cost;
+    input=(tea=="regular tea" || tea=="masala" || tea=="ginger")? tea  :"please enter valid tea name"
+    console.log(input)
+    if(tea=="regular tea"){
+        cost=15;
+       if(add=="extra sugar"){
+        cost=cost+2.5;
+        }
+       else if(add=="no add-on"){
+        cost=cost;
+       } 
+       console.log(cost);
+    }
+    if(tea=="masala"){
+        cost=20;
+       if(add=="extra sugar"){
+        cost=cost+2.5;
+        }
+       else if(add=="no add-on"){
+        cost=cost;
+       } 
+       console.log(cost);
+    }  
+    if(tea=="ginger"){
+        cost=25;
+       if(add=="extra sugar"){
+        cost=cost+2.5;
+        }
+       else if(add=="no add-on"){
+        cost=cost;
+       } 
+       console.log(cost);
+    }  
+  </script>
+</body>
+</html>
